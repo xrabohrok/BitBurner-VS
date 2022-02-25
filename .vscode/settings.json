@@ -1,0 +1,16 @@
+{
+    "bitburner.fileWatcher.enable": true,
+    "bitburner.authToken": "ZLACVfJd9hw/jIxpW7nM7f8brJtRrqRrXbN/GqQEJWGIeIyZ6DqescApYhYhr1Eb",
+    "bitburner.showFileWatcherEnabledNotification": true,
+    "bitburner.showPushSuccessNotification": true,
+    "bitburner.scriptRoot": "./scripts",
+
+    "js/ts.implicitProjectConfig.checkJs": true,
+
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
