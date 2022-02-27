@@ -35,16 +35,4 @@ All you should need to do is make scripts in the `./scripts` directory. Upon sav
 
 A reminder that there is no way to get the scripts _out_ of BitBurner, only VSCode to BB.
 
-## An Important Note:
 
-The top comment in bitburner is alerting the IDE to a TypeScript typdef, without the Typescript fixings.  However, the context is a little different.  You will need to replace the first line that is:
-
-``` javascript
-/** @param {NS} ns **/
-```
-And instead, direct vscode to use the file itself:
-``` javascript
-/** @param {import("../NetscriptDefinitions").NS} ns **/
-```
-
-With that done, you should be able to leverage VSCode's intellisense as you would any other programming project.  If you decide to add const's or other definitions to the top of the file, this magic comment needs to float with the `main` function definition.  
